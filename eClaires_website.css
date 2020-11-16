@@ -1,0 +1,29 @@
+p{
+		color: #000080;
+		text-align: center;
+		font-size: medium;
+		font-weight: ;
+	
+}
+h1{
+		color:#FFEFD5 ;
+		text-align: center;
+		background-color:#CD853F;
+		font-family: 
+		font-size: large;
+		font-weight: bold;
+}
+img { 
+		width: 400;
+		height: 200;
+}
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: ;
+}
+
+form{
+		text-align: center;
+}
