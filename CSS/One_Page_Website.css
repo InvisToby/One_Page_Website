@@ -1,10 +1,29 @@
 /*Header*/
 
 .head-container{
-	background: url(/One-Page-Project/Images/EClaires.jpg) no-repeat 50% 50%;
+	background: url(../Images/EClaires.jpg)o-repeat 50% 50%;
+	background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-sizeL: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+
 }
 
-p{
+body {
+    font-size: 14px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    color: rgb(56, 37, 2);
+    background-color: rgb(236, 206, 167);
+
+}
+
+	p{
 		color: #000080;
 		text-align: center;
 		font-size: medium;
