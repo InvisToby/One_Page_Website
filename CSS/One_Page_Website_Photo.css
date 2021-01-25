@@ -29,4 +29,5 @@ p {
     max-width: 100%;
     width: 620px;
     height: 620px;
+    cursor: pointer;
 }
