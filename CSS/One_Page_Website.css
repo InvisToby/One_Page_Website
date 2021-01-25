@@ -47,6 +47,7 @@ form{
   width: 100%;
   display: block;
   height: 600px;
+
 }
 
 .head-title{
@@ -127,6 +128,10 @@ form{
   margin: 0px auto;
   background-color:  rgb(235, 185, 121);
   box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
+}
+
+.video{
+  padding: 20px;
 }
 
 /*````ordering````*/
