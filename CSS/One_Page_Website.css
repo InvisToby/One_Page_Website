@@ -171,7 +171,7 @@ form{
   border-radius: 7px;
   background: rgb(248, 202, 141);
   box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.3);
-  font-family: font-family: 'segoe Print', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'segoe Print', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .order input,
