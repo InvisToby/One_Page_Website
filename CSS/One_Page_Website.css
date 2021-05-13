@@ -1,6 +1,6 @@
-
 body {
-
+    opacity: 1;
+    transition: 5s opacity;
     font-size: 14px;
     margin: 0;
     line-height: 1.4;
@@ -8,7 +8,10 @@ body {
     background-color: rgb(236, 206, 167);
 }
 
-
+body.fade-out {
+  opacity: 0;
+  transition: none;
+}
 h1{
   color:#FFEFD5 ;
   text-align: center;
