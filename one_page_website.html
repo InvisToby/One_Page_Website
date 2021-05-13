@@ -6,7 +6,9 @@
 		<link rel="stylesheet" type="text/css" href="CSS/One_Page_Website_Photo.css">
 		<title>eClaires Bakery</title>
 	</head>
+
 	<body>
+
 		<header>
 			<div Class="head-container">
 				<div class="head-title">
@@ -40,70 +42,127 @@
 		<div id="product">
 			<div class="container">
 				<div class="flex-container">
-			<!--Gallery of Breads-->
-				<div class="photo-container">
-					<div>
-						<h1>Breads</h1>
-						<p>Take a look at our wonderful breads</p>
-					</div>
-							<div class="photo">
-								<img src="Images/Bread_thumbnail_1.png" alt="Baguette">
-							</div>
-
-							<div class="photo">
-								<img src="Images/Bread_thumbnail_2.png" alt="bread roll">
-							</div>
-
-							<div class="photo">
-								<img src="Images/Bread_thumbnail_3.png" alt="Bread loaf">
-							</div>
-				</div>
-				<!--Gallery of Breads End-->
-
-				<!--Gallery of Pastries -->	
-						<div class="photo-container">
-							<div>
-								<h1>Pastries</h1>
-								<p>Our Deliocious Pastries</p>
-							</div>
-								<div class="photo">
-									<img src="Images/Pastry_thumbnail_1.png" alt="Lemon tart">
-								</div>
 			
-								<div class="photo">
-									<img src="Images/Pastry_thumbnail_3.png" alt="ApplePastries">
-								</div>
-			
-								<div class="photo">
-									<img src="Images/Pastry_thumbnail_2.png" alt="e&#769Claires">
-								</div>
-						</div>
-				<!--Gallery of Pastries End-->	
-
-				<!--Gallery of Cakes-->
-						<div class="photo-container">
+					<!--Gallery of Breads-->
+					<div class="photo-container">
 						<div>
-							<h1>Cakes</h1>
-							<p>Enjoy our Delectable Cakes</p>
-						</div>	
+							<h1>Breads</h1>
+							<p>Take a look at our wonderful breads</p>
+						</div>
 								<div class="photo">
-									<img src="Images/Cake_thumbnail_1.png" alt="Chocolate-cake">
+									<img src="Images/Bread_thumbnail_1.png" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="Baguette">
 								</div>
 
 								<div class="photo">
-									<img src="Images/Cake_thumbnail_2.png" alt="SummerFruits">
+									<img src="Images/Bread_thumbnail_2.png" onclick="openModal();currentSlide(2)" class="hover-shadow"alt="bread roll">
 								</div>
 
 								<div class="photo">
-									<img src="" alt="Victoriacake">
+									<img src="Images/Bread_thumbnail_3.png" onclick="openModal();currentSlide(3)" class="hover-shadow" alt="Bread loaf">
 								</div>
-						</div>				
-			<!--Gallery of Cakes End-->	
 					</div>
-				</div>
-			</div>	
-		<!--Gallery of treats End-->
+					<!--Gallery of Breads End-->
 
+					<!--Gallery of Pastries -->	
+					<div class="photo-container">
+						<div>
+							<h1>Pastries</h1>
+							<p>Our Deliocious Pastries</p>
+						</div>
+							<div class="photo">
+								<img src="Images/Pastry_thumbnail_1.png" onclick="openModal();currentSlide(4)" class="hover-shadow" alt="Lemon tart">
+							</div>
+		
+							<div class="photo">
+								<img src="Images/Pastry_thumbnail_3.png" onclick="openModal();currentSlide(5)" class="hover-shadow" alt="ApplePastries">
+							</div>
+		
+							<div class="photo">
+								<img src="Images/Pastry_thumbnail_2.png" onclick="openModal();currentSlide(6)" class="hover-shadow" alt="e&#769Claires">
+							</div>
+					</div>
+					<!--Gallery of Pastries End-->	
+
+					<!--Gallery of Cakes-->
+					<div class="photo-container">
+							<div>
+								<h1>Cakes</h1>
+								<p>Enjoy our Delectable Cakes</p>
+							</div>	
+									<div class="photo">
+										<img src="Images/Cake_thumbnail_1.png" onclick="openModal();currentSlide(7)" class="hover-shadow" alt="Chocolate-cake">
+									</div>
+
+									<div class="photo">
+										<img src="Images/Cake_thumbnail_2.png" onclick="openModal();currentSlide(8)" class="hover-shadow" alt="SummerFruits">
+									</div>
+
+									<div class="photo">
+										<img src="" onclick="openModal();currentSlide(9)" class="hover-shadow" alt="Victoriacake">
+									</div>
+					</div>				
+				<!--Gallery of Cakes End-->
+
+				</div>
+			</div>
+			<!-- The Modal/Lightbox -->
+			<div id="myModal" class="modal">
+				<span class="close cursor" onclick="closeModal()">&times;</span>
+				<div class="modal-content">
+			
+				<div class="mySlides">
+					<div class="numbertext">1 / 9</div>
+					<img src="Images/Bread_thumbnail_1.png" style="width:100%">
+				</div>
+			
+				<div class="mySlides">
+					<div class="numbertext">2 / 9</div>
+					<img src="Images/Bread_thumbnail_2.png" style="width:100%">
+				</div>
+			
+				<div class="mySlides">
+					<div class="numbertext">3 / 9</div>
+					<img src="Images/Bread_thumbnail_3.png" style="width:100%">
+				</div>
+			
+				<div class="mySlides">
+					<div class="numbertext">4 / 9</div>
+					<img src="Images/Pastry_thumbnail_1.png" style="width:100%">
+				</div>
+			
+				<div class="mySlides">
+					<div class="numbertext">5 / 9</div>
+					<img src="Images/Pastry_thumbnail_2.png" style="width:100%">
+				</div>
+			
+				<div class="mySlides">
+					<div class="numbertext">6 / 9</div>
+					<img src="Images/Pastry_thumbnail_3.png" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">7 / 9</div>
+					<img src="Images/Cake_thumbnail_1.png" style="width:100%">
+				</div>
+			
+				<div class="mySlides">
+					<div class="numbertext">8 / 9</div>
+					<img src="Images/Cake_thumbnail_1.png" style="width:100%">
+				</div>
+			
+				<div class="mySlides">
+					<div class="numbertext">9 / 9</div>
+					<img src="" style="width:100%">
+				</div>
+			
+				<!-- Next/previous controls -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+		
+		</div>	
+	<!--Gallery of treats End-->
+ <script src="JS/One_Page_Website.js"></script>
 		<!--in process-->	
 		<div class="video">
 			<iframe width="960" height="540" src="Images/video.mp4" alt="Video by Pressmaster from Pexels"></iframe>
