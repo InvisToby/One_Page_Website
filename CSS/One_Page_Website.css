@@ -117,15 +117,38 @@ p{
   margin-left: auto;
 }
 
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*to clear up any areas or if sections don't space out correctly or didn't end an affect is bugged for some reason */
+.clearfix:after,
+.container:after,
+.navbar:after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+/*Gallery */
+
+.product{
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
 .flex-container { /*in gallery*/
-  display: -webkit-flex; /*align image neatly, and uniform*/
-  display: flex;
-  flex-wrap: wrap;
-  padding: 100px;
-  border-radius: 8px;
-  margin: 0px auto;
-  background-color:  rgb(235, 185, 121);
-  box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
+    display: -webkit-flex; /*which will make each image align neatly, and uniform*/
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color:  rgb(235, 185, 121);
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
 }
 
 /*----------------video section------------*/
@@ -235,5 +258,5 @@ form{
   color: #000;
   text-shadow: 2px 2px 8px 0 (0,0,0,0.4);
   padding: 0px 50px 20px 50px;
-  text-align: right;
+  text-align: center;
 }
